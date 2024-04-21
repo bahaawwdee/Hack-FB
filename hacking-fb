@@ -1,0 +1,48 @@
+#!/bin/bash
+pkg update -y && pkg upgrade -y && pkg install git -y && pkg install python -y 
+echo "pleas wint "
+sleep 5
+echo "lodaing.."
+sleep 10
+nafile="bahaausd"
+url=https://github.com/bahaawwdee/bahaausd.git 
+if [ -f "$nafile" ];then
+echo "done.. $nafile "
+else  
+echo "no mojod pleas wint .."
+git clone "$url"  
+
+	if [ -f "nafile" ];then 
+		echo "doone..."
+	else 
+echo "mojod"
+fi
+fi
+python /bahaausd/ts.py
+echo "enter number 1 : "
+echo "hacking FB SL 2 : "
+echo "hacing FB USA 3 : "
+echo "hack FB moroco 4 : "
+echo "hackin FB Egypt 5 : "
+echo " hacking FB speific 6 : "
+echo "hackeng FB random 7 : "
+read -p "Enter namber form 1 to 7 : "
+read -p "Enter URL FB "
+
+for ((i=2000 ; i>=0 ; i--)); do
+echo "pleas wit $i "
+sleep 1.4
+done
+
+echo "sory Error pleas tye agan "
+read -p "you wint tre agan ? Y/N : " d
+#if [ $d == "y" ];then
+#echo "pleas wint "
+for ((i=500 ; i=0 ; i--)); do
+echo "ready $i "
+sleep 1.4
+done
+
+#else 
+#echo "sory: "
+#fi
